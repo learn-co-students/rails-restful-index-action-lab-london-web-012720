@@ -1,0 +1,13 @@
+
+<h1><% @students.each do |s|%></h1>
+
+<p>
+
+<label for="student_firstname">
+<%=s.first_name%>
+<label for="student_lastname">
+<%=s.last_name%>
+
+</p>
+
+<%end%>
